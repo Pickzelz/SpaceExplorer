@@ -1,3 +1,6 @@
 [submodule "Assets/Editor/SceneManagement"]
 	path = Assets/Editor/SceneManagement
 	url = https://github.com/Pickzelz/UnitySceneManagement.git
+[submodule "Assets/src/Player/Character"]
+	path = Assets/src/Player/Character
+	url = https://github.com/Pickzelz/FICharacterManagement.git
