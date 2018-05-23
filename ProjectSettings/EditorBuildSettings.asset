@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/3D.unity
+    guid: eeeaabc9fdcfc7d42aa5ed2a81bc5c96
+  - enabled: 1
+    path: Assets/Scene/Jungle.unity
+    guid: 238de063ddf5bb54db11f332582c2915
+  - enabled: 1
+    path: Assets/Scene/Terrain.unity
+    guid: 4eec44d06c3bfe147a8f763f59454a2b

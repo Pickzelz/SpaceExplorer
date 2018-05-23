@@ -548,7 +548,22 @@ PlayerSettings:
   webGLUseEmbeddedResources: 0
   webGLUseWasm: 0
   webGLCompressionFormat: 1
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: FI_FIRST_PERSON
+    4: FIRST_PERSON_CHARACTER
+    7: FIRST_PERSON_CHARACTER
+    13: FIRST_PERSON_CHARACTER
+    14: FIRST_PERSON_CHARACTER
+    17: FIRST_PERSON_CHARACTER
+    18: FIRST_PERSON_CHARACTER
+    19: FIRST_PERSON_CHARACTER
+    20: FIRST_PERSON_CHARACTER
+    21: FIRST_PERSON_CHARACTER
+    23: FIRST_PERSON_CHARACTER
+    24: FIRST_PERSON_CHARACTER
+    25: FIRST_PERSON_CHARACTER
+    26: FIRST_PERSON_CHARACTER
+    27: FIRST_PERSON_CHARACTER
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}
