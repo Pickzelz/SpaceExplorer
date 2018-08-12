@@ -30594,9 +30594,9 @@ MonoBehaviour:
   control:
     characterObject: {fileID: 1678670154}
     cam: {fileID: 1089070414}
-    JumpPower: 5
+    JumpPower: 200
     GroundDistance: 0.1
-    speed: 10
+    speed: 3
     sensitivityX: 10
     sensitivityY: 10
     MinAngle: 45
@@ -30623,13 +30623,13 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1678670154}
   serializedVersion: 2
-  m_Mass: 500
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 50
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 2
-  m_Constraints: 126
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!1001 &1681876850
 Prefab:
