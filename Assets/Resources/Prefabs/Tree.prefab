@@ -8,15 +8,15 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1496069670199736}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
 --- !u!1 &1496069670199736
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4508993528844336}
   - component: {fileID: 193135493144384704}
@@ -33,7 +33,7 @@ GameObject:
 --- !u!4 &4508993528844336
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1496069670199736}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -46,7 +46,7 @@ Transform:
 --- !u!23 &23469764957287326
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1496069670199736}
   m_Enabled: 1
@@ -82,14 +82,14 @@ MeshRenderer:
 --- !u!33 &33459831157692906
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1496069670199736}
   m_Mesh: {fileID: 43838935693822744, guid: c7c4a92867d73c84885bf0abad08d570, type: 2}
 --- !u!182 &182383640091895628
 WindZone:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1496069670199736}
   m_Enabled: 1
@@ -102,7 +102,7 @@ WindZone:
 --- !u!193 &193135493144384704
 Tree:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1496069670199736}
   m_SpeedTreeWindAsset: {fileID: 0}

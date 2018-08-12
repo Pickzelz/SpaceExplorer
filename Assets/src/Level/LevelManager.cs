@@ -5,6 +5,7 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour {
 
     public GameObject CharacterSpawn;
+    public GameObject CharacterObject;
 
 	// Use this for initialization
 	void Start () {

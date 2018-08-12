@@ -6,7 +6,6 @@ using UnityEngine.AI;
 public class EnemyManager : MonoBehaviour {
 
     private List<IEnemyControl> m_Enemies;
-    
 
     // Use this for initialization
     void Start () {
@@ -30,7 +29,6 @@ public class EnemyManager : MonoBehaviour {
         {
             if(_enemy.GetAgent().pathPending)
             {
-                
                 startMove = false;
                 break;
             }
